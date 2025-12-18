@@ -18,7 +18,6 @@ export default function PaymentForm() {
       });
 
 
-      console.log(res);
 
       setOrderId(res.data.orderId);
       setStep("OTP");
